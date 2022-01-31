@@ -1,0 +1,126 @@
+header{
+        background-color: #FEFECC;
+}
+
+h1{
+    font-family:cursive;
+    text-align: center;
+}
+
+h3{
+    font-family:cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+h2{
+    font-family: cursive;
+    text-align: center;
+}
+nav{
+    background-color: #F3BDA1;
+    
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+section{
+    background-color:#687980;
+    grid-column: 1/4;
+}
+
+aside{
+    background-color:#02475E;
+    grid-column: 4/5;
+}
+
+footer{
+    background-color: #FEFECC;
+
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul, ol{
+    list-style: none;
+    display: inline-block;
+}
+
+.menu{
+    padding: 0px 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.menu>li{
+    float: left;
+}
+
+.menu li a{
+    background-color: #F3BDA1;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px 70px;
+    display: block;
+}
+
+.menu li a:hover{
+    background-color: #02475E;
+}
+
+.menu li ul {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    min-width: 140px;
+}
+
+.menu li:hover > ul{
+    display: block;
+}
+
+.menu li ul li{
+    position: relative;
+}
+
+.menu li ul li ul{
+    right: 140px;
+}
+img{
+    display: block;
+    margin: auto;
+}
+
+#pie{
+    text-align: center;
+}
+#acerca{
+    width: 350px;
+    height: 450px;
+}
+
+#acer{
+    text-align: center;
+}
+
+#h{
+    width: 150px;
+    height: 150px;
+}
+#vid{
+    width: 700px;
+    height: 400px;
+    display: block;
+    margin: auto;
+}
